@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button 2</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #08080a;
+      }
+
+      .btn {
+        position: relative;
+        border: 2px solid #4070f4;
+        background: none;
+        padding: 0.8rem 2rem;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.4s linear;
+        border-radius: 0.5rem;
+      }
+      .btn:hover {
+        box-shadow: 0rem 0rem 2rem #4070f4;
+      }
+      .btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transition: 0.4s ease-in-out;
+      }
+      .btn:hover::before {
+        background-color: #4070f4;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">Hover Me</button>
+  </body>
+</html>
