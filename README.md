@@ -1,6 +1,6 @@
-Get all the code that I share on my social media platform here.
+### Get all the code that I share on my social media platform here.
 
-### Information
+# Information
 You can find the complete code on GitHub located at:
 Repo: 'contents'
 Folder: 'Buttons/Button-01'
@@ -8,5 +8,5 @@ In the example above, the specified path means navigating to the 'contents' repo
 
 If this content is useful, please follow me, and I would greatly appreciate it if you have any criticism, suggestions, or questions, please let me know in the comments section. Thank you.
 
-### License
+# License
 100% free, can be used as needed, and can be modified according to your wishes.
